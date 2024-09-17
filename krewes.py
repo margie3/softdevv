@@ -24,11 +24,15 @@ krewes = {
 
 def pop():
     keys = list(krewes.keys())
+    #converts keys into a list
     keysLen = len(keys)
     x = random.randint(0, keysLen - 1)
+    #takes a random index for the number of keys
     vals = list(krewes.get(keys[x]))
+    #converts values of random key into a list
     valsLen = len(vals)
     y = random.randint(0, valsLen - 1)
+    #takes a random index for the number of values
     print(vals[y])
   
 pop()
