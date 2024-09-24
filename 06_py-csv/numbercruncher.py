@@ -23,7 +23,7 @@ having a list with 100 entries based on how common the job is?
 making it a variable instead of specifically making it look for the "Percentage" key
 
 HOW THIS SCRIPT WORKS:
-
+r
 - We read the csv file with a dictionary reader that uses the headers as keys.
 - We choose a random integer in the range of percentages possible
 - We subtract from this integer the value of percentages until it hits a certain range (when it's under 0)
