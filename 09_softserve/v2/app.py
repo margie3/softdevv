@@ -13,3 +13,4 @@ def hello_world():
 
 app.run()
 
+#print statements will appear in the terminal while return statements appear on the local html page
