@@ -1,0 +1,16 @@
+this is plaintext. no formatting. just [3 chords and] the truth
+
+Q: What happens when you access this file
+     via
+      http://localhost:5000/static/foo 
+     ?
+     
+NOTA BENE:
+ Keep yourself honest by
+   jotting down or verbalizing
+     to your neighbourhood Devos+Duckies your prediction
+       --- BEFORE you run your test.
+
+B: I don't think you can access this file via the localhost link since it's a plaintext file instead of a html file
+A: The 404 Not Found errors pops up and confirms that it cannot be accessed through the localhost link
+     
