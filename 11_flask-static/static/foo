@@ -12,5 +12,4 @@ NOTA BENE:
        --- BEFORE you run your test.
 
 B: I don't think you can access this file via the localhost link since it's a plaintext file instead of a html file
-A: The 404 Not Found errors pops up and confirms that it cannot be accessed through the localhost link
-     
+A: The file gets downloaded     
