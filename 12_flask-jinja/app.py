@@ -9,10 +9,12 @@ P: When you remove render_template, we will get an error since render_template i
 A: We get a NameError since name 'render_template' is not defined
 
 Q1:
-<your response here>
+Yes, the url would be the localhost/my_foist_template
 
 Q2:
-<your response here>
+The first argument takes a string for the name of a file to be displayed,
+the second takes a string to be displayed as the title of the html page,
+and the last argument takes a list to be later iterated through.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """
 
