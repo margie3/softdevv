@@ -12,7 +12,7 @@ with open('occupations.csv', newline='') as csvfile: # reads the csv file using 
         if (row[0] != 'Job Class') and (row[0] != 'Total'): # removes the first and last keys
             dict.update({row[0]:float(row[1])}) # updates the dictionary with the occupations as keys and the percentage as values.
     
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
@@ -21,18 +21,20 @@ def hello_world():
 
 @app.route("/wdywtbwygp")
 def occupations():
-    title = "GOOGle - Margie Cao, Jayden Zhang, Nafiyu Murtaza<br>Occupation of the Day: " # creates the starting string
-    x = random.uniform(0.0,99.8)
-    for key, value in dict.items():
-        x = x - value # each key has a range and this subtracts until it is chosen
-        if x <= 0:
-            finalText = finalText + key + "<br>" # adds the randomly selected occupation html
-            break
-    finalText = finalText + "<table>"
-    for key, value in dict.items(): # appends each key in the list of keys into the finalText string to return as one big string
-        finalText = finalText + "<tr> <td style='border: 1px solid black'>" + key + "</td> <td style='border: 1px solid black'>" + str(value) + "</td> </tr>"  # uses the <br> command which is commonly seen in html which is similar to \n
-    finalText = finalText + "</table>"
-    return finalText
+    finalText = ""
+#     finalText = finalText + "GOOGle - Margie Cao, Jayden Zhang, Nafiyu Murtaza<br>Occupation of the Day: " # creates the starting string
+    title = "hi :)"
+#     x = random.uniform(0.0,99.8)
+#     for key, value in dict.items():
+#         x = x - value # each key has a range and this subtracts until it is chosen
+#         if x <= 0:
+#             finalText = finalText + key # adds the randomly selected occupation html
+#             break
+#     finalText = finalText + "<table>"
+#     for key, value in dict.items(): # appends each key in the list of keys into the finalText string to return as one big string
+#         finalText = finalText + "<tr> <td style='border: 1px solid black'>" + key + "</td> <td style='border: 1px solid black'>" + str(value) + "</td> </tr>"  # uses the <br> command which is commonly seen in html which is similar to \n
+#     finalText = finalText + "</table>"
+    return render_template("template.html", Title = title, lines = finalText, collection=dict.items())
 
 
 if __name__ == "__main__":
