@@ -14,8 +14,11 @@ DISCO:
 
 Q/C/C:
 * what does #, methods=['GET', 'POST']) by the routes mean?
+* ^ get is the request object
 * why is it specifically the username request that causes an error?
 * the print statements appear in terminal
+* args - the inputted data
+* headers - information about the machine
 -----------------------------------------------------------------------
 
 
