@@ -1,23 +1,23 @@
 Margie Cao, Moyo Fagbuyi
-Systems Level Programming
+M&M
 SoftDev 
-K15 -- Creating a Flask App
+K15 -- Experimenting with Flask GET and POST
 2024-10-08
-Time Spent: #
+Time Spent: 2 hours
  
 DISCO:
-* 
+* from K14, we know that the get method works for request.args and gives us the username so how does this work for the POST method?
 *
 * 
 -----------------------------------------------------------------------
 
 
 Q/C/C:
-*
-* 
-* 
-* 
-* 
+* when can we use the POST method?
+* ^ cannot access using request.args, have to use request.form
+* args and forms are seperate dictionaries (accessed differently)
+* both methods are not very secure despite POST data being hidden from the url
+* get is the default method
 -----------------------------------------------------------------------
 
 
