@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- 
+M&M - Margie Cao & Moyo Fagbuyi
+SoftDev
+K15 - Experimenting with Flask GET and POST
+2024-10-09
+time spent: 2 hours
+-->
+
+<html>
+
+  <head>
+    <title> M&M </title>
+  </head>
+
+  <body>
+    <h1>
+      hi. <br> we are M&M, Margie Cao and Moyo Fagbuyi
+    </h1>
+    <h2>
+      now please please please enter your username
+    </h2>
+    <form action="/auth" method="GET">
+      <input type="text" name="username">
+      <input type="submit" name="sub1" value="GET">
+    </form>
+    <br>
+    <form action="/auth" method="POST">
+      <input type="text" name="username">
+      <input type="submit" name="sub1" value="POST">
+    </form>
+  </body>
+
+</html>
