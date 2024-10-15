@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <!-- 
-M&M - Margie Cao & Moyo Fagbuyi
+Systems Level Programming - Margie Cao, Tim Ng, Moyo Fagbuyi
 SoftDev
-K15 - Experimenting with Flask GET and POST
+K16 - working with sessions and cookies
 2024-10-09
-time spent: 2 hours
--->
+time spent: 3 hours
+ -->
+
 
 <html>
 
   <head>
-    <title> M&M </title>
+    <title> Your Page </title>
   </head>
-
   <body>
     <h1>
-	HEY {{ username }}
+      What's popping {{name}}
     </h1>
-    <h3>
-      hmmmmmm you chose to {{ request }}!
-    </h3>
-    <br>
-    <p> {{ gvp }} </p>
+    <form action="/logout" method="POST">
+      <button type="submit">Logout</button>
+    </form>
   </body>
 
 </html>
