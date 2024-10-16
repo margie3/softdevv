@@ -3,7 +3,7 @@
 # K18 - live css page
 # SoftDev
 # 2024-10-16
-# Time Spent: # hours
+# Time Spent: 1 hour
 
 from flask import Flask, render_template
 
