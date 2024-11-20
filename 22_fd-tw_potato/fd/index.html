@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<!--
+  potato: Margie C, Sasha M
+  SoftDev pd5
+  Nov 20 2024
+  foundations
+ --> 
+
+ <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Foundation Demo </title>
+    <!-- Link To CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center" style="margin-top: 10px">Foundations!</h1>
+    <p class="text-center" style="margin-top: 10px">potato: margie c & sasha m</p>
+    <!-- Grid Container -->
+    <div class="grid-y medium-grid-frame"> <!-- Frame -->
+        <div class="cell medium-8 medium-cell-block-container"> <!-- Container -->
+            <div class="grid-x grid-padding-x">
+                <div class="cell medium-4 medium-cell-block-y text-center" style="margin-top: 10px; margin-bottom: 10px; background-color: rgb(212, 228, 255);">
+                    <p> foundations is a responsive front-end framework! <br> it's very customizable (u probably won't dup other people's websites!) <br> it has a clean grid system <br> and very cool buttons!</p>
+                </div>
+                <div class="cell medium-8 medium-cell-block-y text-center" style="margin-top: 10px; margin-bottom: 10px; background-color: rgb(237, 252, 255);">                
+                    <p> duckies are super cool </p> <br>
+                    <p> like super cool </p> <br>
+                    <p> yippee </p> <br>
+                    <p> more text </p> <br>
+                    <p> keep reading  </p> <br>
+                    <p> just a little more  </p> <br>
+                    <p> trust me...  </p> <br>
+                    <p> oh my gosh... </p> <br>
+                    <p> YOU CAN SCROLL! </p> <br>
+                    <p> go grid containers yip yip </p> <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    <h3 class="text-center">BUTTONS?!?!!? WOAH!</h3> 
+    <p>toggling the class labels changes the properites of buttons <br> adding "primary" or "secondary" changes the color of the button</p>
+        <div> <!-- Buttons With Different Background Colors -->
+            <a class="button primary" href="#">Primary</a>
+            <a class="button secondary" href="#">Secondary</a>
+            <a class="button success" href="#">Success</a>
+            <a class="button alert" href="#">Alert</a>
+            <a class="button warning" href="#">Warning</a>
+        </div>
+        <p>no background: add "clear" to the class label</p>
+        <div> <!-- Buttons With No Background -->
+            <a class="clear button" href="#">Primary</a>
+            <a class="clear button secondary" href="#">Secondary</a>
+            <a class="clear button success" href="#">Success</a>
+            <a class="clear button alert" href="#">Alert</a>
+            <a class="clear button warning" href="#">Warning</a>
+            <a class="clear button" href="#" disabled>Disabled</a>
+        </div>
+    <p>Buttons but with CSS!?</p>
+    <p>hollow?!: add "hollow" to the class label</p>
+        <div> <!-- Hollow Buttons -->
+            <button class="hollow button" href="#">Primary</button>
+            <button class="hollow button secondary" href="#">Secondary</button>
+            <button class="hollow button success" href="#">Success</button>
+            <button class="hollow button alert" href="#">Alert</button>
+            <button class="hollow button warning" href="#">Warning</button>
+            <button class="hollow button" href="#" disabled>Disabled</button>
+        </div>
+        <p>disabled?!: add "disabled" to the class label and in the button tag</p>
+        <div> <!-- Disabled Buttons -->
+            <a class="button disabled" href="#" aria-disabled>Disabled</a>
+            <button type="button" class="button primary" disabled>Disabled</button>
+            <button type="button" class="button secondary" disabled>Disabled</button>
+            <button type="button" class="button success" disabled>Disabled</button>
+            <button type="button" class="button alert" disabled>Disabled</button>
+            <button type="button" class="button warning" disabled>Disabled</button>
+        </div>
+
+        <p>combine the properties!t</p>
+        <div> <!-- Hollow and Disabled Buttons -->
+            <a class="button hollow disabled" href="#" aria-disabled>Disabled</a>
+            <button type="button" class="button hollow primary" disabled>Disabled</button>
+            <button type="button" class="button hollow secondary" disabled>Disabled</button>
+            <button type="button" class="button hollow success" disabled>Disabled</button>
+            <button type="button" class="button hollow alert" disabled>Disabled</button>
+            <button type="button" class="button hollow warning" disabled>Disabled</button>
+        </div>
+</body>
+
+</html>

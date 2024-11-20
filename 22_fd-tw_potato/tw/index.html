@@ -1,0 +1,50 @@
+<!doctype html>
+
+<!--
+  potato: Margie C, Sasha M
+  SoftDev pd5
+  Nov 20 2024
+  tailwind
+ --> 
+
+<html class ="bg-white dark:bg-black"> <!-- this makes the screen black, you coulkd also make it turn off and on by adding a bunvh of stuff-->
+<link rel="stylesheet" href="styles.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+  </style>
+</head>
+  <body>
+    <h1 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight"> potato: margie c & sasha m </h1>
+    <div class="bg-white dark:bg rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+      <h3 class="text-slate-900 dark:text-teal-800 mt-5 text-lg font-medium tracking-tight">light mode</h3>
+      <p class="text-slate-500 dark:text-teal-800 mt-2 text-base">
+        text frfr
+      </p>
+    </div>
+    <div class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+      <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">dark mode</h3>
+      <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
+        text frfr
+      </p>
+      <br>
+      <button class="bg-teal-300 hover:bg-teal-400 active:bg-teal-500 focus:outline-none focus:ring focus:ring-teal-200 rounded-lg p-5"> <!-- button thats nice when you press it-->
+        button !!
+      </button>
+    </div>
+
+  </body>
+</html>
