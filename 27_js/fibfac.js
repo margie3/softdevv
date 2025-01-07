@@ -8,7 +8,7 @@
 //factorial:
 
 //<your team's fact(n) implementation>
-function fact(n) {
+let fact = function(n) {
   if (n == 1) {
     return 1;
   }
@@ -29,11 +29,11 @@ fact(10) // 3628800
 //fib:
 
 //<your team's fib(n) implementation>
-function fib(n) {
+let fib = function(n) {
   if (n == 1) {
     return 1;
   }
-  if (n == 2) {
+  else if (n == 2) {
     return 1;
   }
   else {
@@ -43,9 +43,9 @@ function fib(n) {
 
 //TEST CALLS
 // (writing here can facilitate EZer copy/pasting into dev console now and later...)
-fib(1)
-fib(2)
-fib(3)
-fib(10)
-fib(15)
+fib(1) // 1
+fib(2) // 1
+fib(3) // 2
+fib(5) // 5
+fib(10) // 55
 //=================================================================
