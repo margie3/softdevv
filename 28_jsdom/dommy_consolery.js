@@ -102,14 +102,41 @@ var stripe = function()
 
 //insert your implementations here for...
 // FIB
+let fib = function(n) {
+    if (n == 1) {
+      return 1;
+    }
+    else if (n == 2) {
+      return 1;
+    }
+    else {
+      return fib(n-2) + fib(n-1)
+    }
+  }
 // FAC
+let fact = function(n) {
+    if (n == 1) {
+      return 1;
+    }
+    else {
+      return n * (fact(n-1));
+    }
+  }
 // GCD
+let gcd = function(a, b){
+    if (b == 0) {
+        return a;
+    }
+    else {
+        return gcd(b, a % b);
+    }
+}
 
 
 // In addition to the style shown above,
 //  you are encouraged to test drive the "arrow function syntax" as shown below.
 //  Note anything notable.
 const myFxn = (param1, param2) => {
-    // body
+    retVal = param1 + param2;
     return retVal;
 };

@@ -7,7 +7,13 @@ DISCO:
 - wowww you can log strings, numbers, and arrays (probably anything).
 	- they show up in the console with the file name and line number
 - inside function -> local variable, doesn't affect outer variable even if named the same
--
+- an object can have a function inside it
+- can change list colors woahhhh
+	- could add a button that runs the function too
+- functions work!!
+- arrow function syntax doesn't need the function keyword
 
 QCC: 
 - How would you make a global variable?
+- Why does JS prioritize blue over red and green (in classes)?
+- Why use arrow function syntax? (Personally I think it's shorter but less readable)
